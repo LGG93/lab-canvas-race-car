@@ -1,6 +1,7 @@
 body {
   padding: 0;
   text-align: center;
+  display: flex;
 }
 
 .game-intro {
@@ -35,4 +36,18 @@ body button {
 #game-board {
     float: left;
     padding: 20px 0px;
+}
+
+.gameOverPic{
+  height: 200px;
+  width: auto;
+  display: none;
+  margin-top: 200px;
+  margin-left: 100px;
+  
+}
+.gameOverBtn{
+  display: none;
+  margin-left: 180px;
+  margin-top: 40px;
 }
